@@ -16,14 +16,14 @@ Instructions:
 """
 
 # TODO: Create the datasets - up to you to fill in the data
-temperatures = []
-city_population = {}
+temperatures = [12, 55, 33, 45, 21, 27]
+city_population = {223, 532, 132, 432, 123, 321}
 
 # TODO: Compute aggregates
-average_temperature = 0
-largest_city = ""
-largest_population = 0
-total_population = 0
+average_temperature = sum(temperatures)/len(city_population)
+largest_city = max(city_population)
+largest_population = max(city_population)
+total_population = sum(city_population)
 
 # TODO: Print results
 print("Average temperature:", average_temperature)
